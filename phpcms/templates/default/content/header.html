@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+<meta name="keywords" content="{$SEO['keyword']}">
+<meta name="description" content="{$SEO['description']}">
+<link href="install_package/statics/style/css.css" rel="stylesheet" type="text/css" />
+<script src="/statics/Scripts/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+<!--[if IE 6]>
+<script type="text/javascript" src="/muban/Scripts/TheFuckingIE6_PNG.js"></script>
+<script type="text/javascript">
+ DD_belatedPNG.fix('.customer');
+</script>
+<![endif]-->
+
+
+
+
+	 
+	 
+	 
+<div class="base top">
+<p><a href='#' onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('{siteurl($siteid)}');">设为首页</a>|<a href="javascript:window.external.addFavorite('{siteurl($siteid)}','{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}');">加入收藏</a>
+</p>
+<div class="logo"></div>
+</div>
+<div class="nav">
+<ul>
+
+
+    	{pc:content action="category" catid="0" num="7" siteid="$siteid" order="listorder ASC"}
+      
+			<li><a href="{siteurl($siteid)}">首页</a></li>
+			{loop $data $r}
+			<li><a href="{$r[url]}">{$r[catname]}</a></li>
+			{/loop}
+
+        {/pc}
+
+</ul>
+</div>
+<div class="clear"></div>
+<div class="banner">
+<div class="videoList-container" id="pcList" style="display:none;margin-bottom:0px;">
+<div id="slide-index">          
+	<div class="slides">
+
+
+
+   {pc:content  action="position" posid="1"  order="listorder DESC" thumb="1" num="3"}
+   {php $j=0;}
+   
+   {loop $data $r}
+   	
+            <div class="slide autoMaxWidth" links=[{left:'30px',top:'81px'},{left:'30px',top:'244px'},{direction:'tb'}]>	  		
+                <div class="image" id='bi_0'>
+				
+                <img src="{thumb($r['thumb'],1920,300)}" alt="{$r['title']}" />
+                
+
+				</div>			
+                <div class="text" id='bt_{php echo $j}'></div>
+                <div class="button" id='bb_{php echo $j}'></div>
+            </div>
+   
+            {$j++}
+			{/loop}
+            {/pc}
+	
+
+			
+			
+			
+	</div>
+	<div class="control">			
+		<a href="#"></a>	
+		<a href="#"></a>
+		<a href="#"></a>
+	</div>
+</div>			
+</div>
+</div>

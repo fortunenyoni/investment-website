@@ -1,0 +1,54 @@
+
+{template "content","header"}
+<script src="/muban/Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+<div class="base mt10" id="here">
+<div class="insideL">
+        <div class="subnav">
+        <h2>快速导航</h2>
+        <ul>
+		
+    	{pc:content action="category" catid="0" num="7" siteid="$siteid" order="listorder ASC"}
+
+			{loop $data $r}
+			<li><a href="{$r[url]}">{$r[catname]}</a></li>
+			{/loop}
+
+        {/pc}	
+    
+        </ul>
+        </div>
+        <div class="subC">
+{show_ad(1, 11)}
+        </div>
+</div>
+<div class="insideR">
+<h2>{$title}</h2>
+
+<div id="onepage" style="text-align:left">
+
+{$content}
+
+</div>
+</div>
+</div>
+
+{template "content","footer"}
+
+<script type="text/javascript" src="/muban/Scripts/Xslider.js"></script>
+<script src="/muban/Scripts/BannerChange.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$(".productshow").Xslider({
+		unitdisplayed:1,
+		numtoMove:1,
+		loop:"cycle",
+		autoscroll:2000 
+	});
+	
+})
+$("a").attr('href',function(i,ov){return ov+'#here';});
+swfobject.registerObject("FLVPlayer");
+</script>
+ </body>
+</html>

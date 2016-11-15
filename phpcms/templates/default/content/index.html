@@ -1,0 +1,97 @@
+
+
+{template "content","header"}
+
+<div class="base mt10">
+<div class="left">
+<h2><span><a href="/html/about/jianjie/">更多 +</a></span>关于我们 <em>ABOUT US</em></h2>
+{show_ad(1, 13)}
+</div>
+<div class="middle">
+<h2><span><a href="xinwen/">更多 +</a></span>新闻资讯 <em>NEW INFORMATIONS</em></h2>
+<ul>
+
+
+                {pc:content action="lists" catid="6" num="7" order="id DESC" return="info"}
+
+         
+                {loop $info $v}
+				
+				<li><span>{date('Y-m-d',$v[updatetime])}</span><a href="{$v['url']}" target="_blank" >{str_cut($v['title'],30)}</a></li>
+				
+                {/loop}
+    
+                {/pc}
+
+
+</ul>
+</div>
+<div class="right">
+{show_ad(1, 12)}
+</div>
+</div>
+<div class="clear"></div>
+<div class="base mt10 productshow">
+<h2><span><a href="chanpin/">更多 +</a></span>产品展示 <em>PRODUCTS SHOW</em></h2>
+<div class="scrollcontainer clearfix">
+                                    <ul>
+
+
+          {pc:content   action="lists"  catid="7" posid="12" thumb="1"  order="updatetime DESC" num="10"}
+       
+             {loop $data $r}
+			 
+			   <li>
+               <div><a href="{$r[url]}" title="{$r[title]}"><img src="{thumb($r[thumb])}" title="{$r[title]}" width="174px" height="196px"/></a><h5><a href="{$r[url]}" title="{$r[title]}">{str_cut($r[title],20)}</a></h5></div>                                          
+               </li>
+									  
+									  
+		
+                {/loop}
+    
+            {/pc}
+
+
+
+                                    </ul>
+                                   </div>
+                                  <a class="abtn aleft" href="#left"></a>
+                                  <a class="abtn aright" href="#right"></a>
+                          </div>
+</div>
+
+
+
+{template "content","footer"}
+
+
+<script type="text/javascript" src="/muban/Scripts/Xslider.js"></script>
+<script src="/muban/Scripts/BannerChange.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$(".productshow").Xslider({
+		unitdisplayed:1,
+		numtoMove:1,
+		loop:"cycle",
+		autoscroll:2000 
+	});
+	
+})
+ </script>
+ <div id="service" class="servicebox"></div> 
+<script> 
+var FloatDiv = { 
+        Float : function (){ 
+                var xtop = document.documentElement.scrollTop || document.body.scrollTop; 
+                for(var i = 0; i < arguments.length; i ++){ 
+                        var _float = document.getElementById(arguments[i]); 
+                        _float.style.top = "50%"; 
+                        //_float.style.marginTop = parseFloat(xtop) - parseFloat(_float.clientHeight) / 2 + "px"; 
+                } 
+        }, 
+}; 
+window.onscroll = function () {FloatDiv.Float("service");} 
+$("a").attr('href',function(i,ov){return ov+'#here';});
+</script>
+</body>
+</html>

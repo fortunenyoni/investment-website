@@ -1,0 +1,498 @@
+.orderDetails {
+    width: 980px;
+    margin: 0 auto;
+    color: #848484;
+}
+.orDeTop {
+    height: 77px;
+    width: 100%;
+}
+.orDeTop a.orlogo {
+    width: 282px;
+    height: 67px;
+    display: block;
+    background: url() no-repeat left top;
+    text-indent: 0px;
+    border-right: 0;
+	font-size:30px;
+	text-align:center;
+	line-height:67px;
+	color:#f89e35;
+	font-weight:bold;
+}
+.orDeTop a {
+    color: #333;
+    padding: 0 7px;
+    border-right: 1px solid #333;
+}
+.fl {
+    float: left;
+}
+a {
+    color: #06c;
+    text-decoration: none;
+    cursor: pointer;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.fr {
+    float: right;
+}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheetdiv {
+    display: block;
+}
+.small_toolkit ul {
+    margin-top: 15px;
+}
+.small_toolkit li {
+    float: left;
+    line-height: 30px;
+}
+.phoneblack {
+    width: 160px;
+    height: 30px;
+    background-position: 0 -572px;
+}
+.orDeTop a {
+    color: #333;
+    padding: 0 7px;
+    border-right: 1px solid #333;
+}
+.orderDetails .orDeBoxLeft {
+    width: 307px;
+    border: solid 1px #dbe4eb;
+    padding-bottom: 15px;
+    float: right;
+    background: #fff;
+}
+.orderDetails .orDeBoxRight {
+    width: 660px;
+    float: left;
+    border: solid 1px #dbe4eb;
+}
+.bg_white {
+    background: #FFF;
+}
+.orDeBoxRight h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: rgb(97, 161, 223);
+    font-family: ??????;
+    font-weight: 400;
+    background: rgb(234, 246, 253);
+    border-bottom: 1px solid rgb(219, 228, 235);
+    padding: 0px 10px;
+}
+.orDeBoxRight h3 a {
+    float: right;
+    color: rgb(97, 161, 223);
+    padding-left: 19px;
+    display: block;
+    font-family: ????;
+    font-size: 14px;
+    background: url("http://image.zuchecdn.com/newversion/common/edit.png") 0% 50% no-repeat;
+}
+.orDeBoxRight .orderInfo {
+    height: 183px;
+    border-bottom: solid 1px #dbe4eb;
+    overflow: hidden;
+    color: #333;
+    background: #f9fdff;
+}
+.orDeBoxRight .orderInfo .carInfo {
+    width: 315px;
+    height: 183px;
+    float: left;
+    text-align: center;
+    font-family: ??????;
+    font-size: 16px;
+    vertical-align: middle;
+    border-right: 1px solid rgb(219, 228, 235);
+}
+.orDeBoxRight .orderInfo .carTime {
+    width: 343px;
+    height: 183px;
+    float: left;
+    overflow: hidden;
+}
+.borderBlueB {
+    border-bottom: solid 1px #dbe4eb;
+}
+.borderBlueR {
+    border-right: solid 1px #dbe4eb;
+}
+.orDeBoxRight .orderInfo .carTime ul li {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    padding-left: 18px;
+}
+.orDeBoxRight .orderInfo .carTime ul li span {
+    font-weight: 700;
+}
+.borderBlueBda {
+    border-bottom: dashed 1px #dbe4eb;
+}
+.orDeBoxRight h3.pink {
+    background: #fdf1ea;
+    color: #f60;
+}
+.orDeBoxRight h3 {
+    height: 40px;
+    line-height: 40px;
+    background: #eaf6fd;
+    border-bottom: solid 1px #dbe4eb;
+    font-size: 16px;
+    color: #61a1df;
+    font-family: "??????";
+    padding: 0 10px;
+    font-weight: 400;
+}
+.orderFeeDetails {
+    background: #fffbf8;
+}
+.SelServiceItem {
+    min-height: 57px;
+    padding: 0 0 17px 10px;
+    overflow: hidden;
+}
+.SelServiceItem a.unchecked, .SelServiceItem a.checked {
+    float: left;
+    margin-top: 27px;
+}
+.SelServiceItem .serviceName {
+    width: 95px;
+    padding: 0 10px;
+    line-height: 20px;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 27px;
+}
+.sz_OrderpOrangeS {
+    display: inline-block;
+    width: 75px;
+    float: left;
+    overflow: hidden;
+    margin-top: 31px;
+}
+.SelServiceItem p {
+    display: block;
+    float: left;
+    color: #848484;
+    line-height: 22px;
+    margin-top: 27px;
+    width: 428px;
+}
+.sz_OrderpOrangeS em.rmb {
+    height: 13px;
+    display: inline-block;
+    font: 12px/13px "Î¢ÈíÑÅºÚ";
+    color: #f60;
+    float: left;
+    _margin-right: -1px;
+}
+.sz_OrderpOrangeS em.num {
+    display: inline-block;
+    font: 700 16px/15px arial;
+    color: #f60;
+    float: left;
+}
+.sz_OrderpOrangeS em.unit {
+    width: 30px;
+    height: 13px;
+    display: inline-block;
+    font: 12px/13px "ËÎÌå";
+    color: #848484;
+    float: left;
+    margin: 2px 0 0;
+}
+.feeItem {
+    height: 74px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.feeItem .feePrice {
+    float: right;
+    margin-top: 27px;
+}
+.sz_OrderpOrangeM {
+    display: inline-block;
+    overflow: hidden;
+}
+.sz_OrderpOrangeM em.rmb {
+    width: 10px;
+    height: 13px;
+    display: inline-block;
+    font: 700 16px/16px "Î¢ÈíÑÅºÚ";
+    color: #f60;
+    float: left;
+    margin: 5px 5px 0 0;
+    _margin-right: -1px;
+}
+.sz_OrderpOrangeM em.num {
+    display: inline-block;
+    font: 700 24px/24px arial;
+    color: #f60;
+    float: left;
+    margin-right: 2px;
+}
+.feeItem .calculate {
+    float: right;
+    margin-top: 33px;
+}
+.sz_priceGraySmall {
+    display: inline-block;
+    overflow: hidden;
+}
+.sz_priceGraySmall em.num {
+    display: inline-block;
+    font: 13px/13px arial;
+    color: #848484;
+    float: left;
+    margin-right: 2px;
+}
+.sz_priceGraySmall em.unit {
+    height: 13px;
+    display: inline-block;
+    font: 12px/13px "ËÎÌå";
+    color: #848484;
+    float: left;
+    padding-right: 5px;
+}
+.feeItem .feeName {
+    padding: 0 10px;
+    line-height: 20px;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 30px;
+}
+.feeItem .feeName em {
+    color: #848484;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+.SelServiceItem .serviceReceipt {
+    padding: 0 10px;
+    line-height: 20px;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 27px;
+}
+.SelServiceItem em.fl {
+    display: block;
+    margin-top: 27px;
+    width: 525px;
+}
+.SelServiceItem .serviceReceipt em, .SelServiceItem em.fl {
+    color: #848484;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.fl {
+    float: left;
+}
+.orderFeeTotal {
+    width: 640px;
+}
+.orderFeeTotal {
+    padding: 22px 10px;
+    text-align: right;
+    position: relative;
+    background: #fff;
+}
+.orderFeeTotal .yjtotal {
+    font-size: 14px;
+    font-weight: 700;
+    color: #848484;
+    display: inline-block;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.orderFeeTotal .sz_OrderpOrangeB {
+    position: relative;
+    top: 10px;
+}
+.sz_OrderpOrangeB {
+    display: inline-block;
+    overflow: hidden;
+}
+.sz_OrderpOrangeB em.rmb {
+    width: 10px;
+    height: 13px;
+    display: inline-block;
+    font: 700 16px/16px "Î¢ÈíÑÅºÚ";
+    color: #f60;
+    float: left;
+    margin: 11px 5px 0 0;
+    _margin-right: -1px;
+}
+.sz_OrderpOrangeB em.num {
+    display: inline-block;
+    font: 700 36px/32px arial;
+    color: #f60;
+    float: left;
+    margin-right: 2px;
+}
+.sz_btnBlue104 {
+    width: 104px;
+    height: 44px;
+    display: inline-block;
+    background-position: -84px 0;
+    font: 700 16px/44px "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    color: #fff;
+}
+.sz_btnBlue, .sz_btnOrange, .sz_btnGreen, .sz_btnGray, .sz_btnBlueSmall, .sz_btnBlue104, .sz_btnOrange104, .index_btn_Blue {
+    background-image: url(http://image.zuchecdn.com/newversion/common/bgbtns.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.orderDetails .orDeBoxLeft .orderMap dl {
+    padding-left: 10px;
+}
+.orderMap dl dt {
+    color: #848484;
+    font: 700 14px/28px "????";
+}
+.safetychildrenseat {
+    display: inline-block;
+    padding-left: 19px;
+    height: 19px;
+    font-size: 1px;
+    background-position: -78px -198px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.orderMap dl dd label {
+    width: 60px;
+    display: inline-block;
+    float: left;
+}
+.orderMap dl dd span {
+    width: 230px;
+    display: inline-block;
+}
+.orderMap dl dd span a {
+    display: inline-block;
+    color: #61a1df;
+    background: url(http://image.zuchecdn.com/newversion/common/arrow_r.png) no-repeat right center;
+    padding-right: 10px;
+}
+.orderMap dl dd label {
+    width: 60px;
+    display: inline-block;
+    float: left;
+}
+.orderMap dl dd span {
+    width: 230px;
+    display: inline-block;
+}
+a.sz-star-aa {
+    color: #63a0df;
+    text-decoration: underline;
+    vertical-align: 3px;
+}
+.pl10 {
+    padding-left: 10px;
+}
+.commentNum {
+    font-family: 'ËÎÌå';
+    font-size: 13px;
+    color: #fa952f;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.orderDetails .orDeBoxLeft .describe {
+    padding: 0 8px;
+    padding-top: 14px;
+    border-top: solid 2px #dbe4eb;
+}
+.orderDetails .orDeBoxLeft .describe .describePart {
+    margin-bottom: 26px;
+}
+.orderDetails .orDeBoxLeft .describe h3 {
+    height: 23px;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+}
+.orderDetails .orDeBoxLeft .describe p {
+    display: block;
+    line-height: 24px;
+    text-align: justify;
+}
+.describePart .infoList span {
+    width: 12px;
+    height: 15px;
+    _line-height: 12px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    _left: -12px;
+    z-index: 99;
+}
+.line_h24 {
+    line-height: 24px;
+}
+.m20_0 {
+    margin: 20px 0;
+}
+.p20 {
+    padding: 20px;
+}
+.index_bdb2 {
+    border: 1px solid #dbe4eb;
+    border-bottom-width: 2px;
+}
+.bg_white {
+    background: #FFF;
+}
+.gray {
+    color: #848484;
+}
+.sz_footer {
+    width: 980px;
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+    margin: 30px auto;
+    font-family: Arial,verdana;
+    color: #848484;
+	background:#ccc;
+}
+.sz_footer p {
+    line-height: 25px;
+}
+.sz_footer p a {
+    color: #848484;
+    margin: 0 20px;
+    text-decoration: none;
+}
+li{
+	list-style:none;
+}
+
